@@ -64,3 +64,218 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+
+.middle-img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	width: 100%;	
+	padding: 50px;
+	height: 35%;
+}
+
+.top-content {
+	display: flex;
+	position: relative;
+	width: 100%;
+	margin: 1px;
+}
+
+.features {
+	width: 49%;
+	display: flex;
+}
+
+.logo {
+	position: absolute;
+  right: 75px;
+  width: 300px;
+  padding: 10px;
+}
+
+.sphere {
+	margin-left: 1300px;
+  margin-right: 1300px; 
+	margin-top: -300px;
+}
+
+.button {
+	border: solid black;
+  	padding: 8px 38px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: flex;
+	font-size: 16px;
+	margin-left: 600px;
+	margin-top: 20px;
+	width: 160px; 
+}
+
+.title {
+	font-size: 80px;
+	text-align: center;
+	margin-right: 500px;
+	margin-top: 100px;
+	display: block;
+}
+
+.bottom-content {
+	display: flex;
+	position: relative;
+	width: 100%;
+	margin: 1px;
+}
+
+.footer {
+	text-align: center; 
+}
+
+.secondContent {
+	width: 33%;
+	display: flex;
+}
+
+.navigation {
+	display: flex;
+	position: relative;
+	width: 90%;
+	margin: 1px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.nav {
+	width: 15%;
+	display: flex;
+}
+
+.services-header-img {
+	display: flex;
+}
+
+.services-info-img {
+	float: right;
+  right: 100px;
+  width: 300px;
+  height: 225px; 
+  bottom: 300px;
+  padding: 10px;
+}
+
+.parent-container {
+	height: 1400px; 
+	width: 1800px; 
+	border: black; 
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.boxes {
+	border: 1px solid black;   
+	height: 200px; 
+	width: 500px; 
+	padding: 20px; 
+	flex-wrap: wrap; 
+	justify-content: space-evenly;
+}
+
+.bottom-content {
+	display: flex;
+	padding: 10px; 
+	margin: 10px;
+	flex-direction: column;
+}
+
+.services-header-img {
+	display: flex;
+	align-self: flex-end; 
+	width: 1800px;
+	height: 400px; 
+	padding: 75px; 
+}
+
+.logo2 {
+	position: absolute;
+  right: 75px;
+  width: 300px;
+  padding: 10px;
+  top: 3px;
+}
+
+.top-content {
+	display: flex; 
+	padding: 10px; 
+	flex-direction: column;
+}
